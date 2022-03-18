@@ -1,5 +1,5 @@
 /*!
- * jQuery JavaScript Library v3.4.1
+ * jQuery JavaScript Lib
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -8,8 +8,7 @@
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
- *
- * Date: 2019-05-01T21:04Z
+ 
  */
 ( function( global, factory ) {
 
