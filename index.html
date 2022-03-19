@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lit Pizza Pizzeria</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/mdb.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -12,13 +13,32 @@
 </head>
 <body>
     <header>
-      <div class="view">
+      <div class="view landing">
         <div id="overlay">
+          <nav class="navbar navbar-expand-md bg-success navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Pizza Pizzeria</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pizza Types</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
             <div class="mask rgba-black-light align-items-center">
               <div class="container" id="head">
                 <div class="row">
                   <div class="col-md-12 mb-4 white-text text-center text">
-                    <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Lit Slice</strong></h1>
+                    <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Delisious Slices Piza</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="text-uppercase mb-4 gold-text wow fadeInDown" data-wow-delay="0.4s"><strong>Welcome 2 our Piza Shop</strong></h5>
                     <a class="btn btn-green wow fadeInDown button" > Place Order <em> <small> "Per favore" </small></em></a>
@@ -33,22 +53,36 @@
       <div class="controls-top text-center"> 
         <h2>About</h2>
       </div>
-      <div class="container section" id="about-us">
+      <!-- <div class="container section" id="about-us">
         <div class="col-sm-12 d-flex flex-xs-column">
           <div class="col-sm-6 align-items-center">
             <div class="content">
               <h3>Welcome to our Pizza Inn</h3>
               <p>To be Healthy, We Need to Always be Happy</p>
-              <p><em><strong>All Pizza Lovers</strong></em> </p>
-            </div>
-          </div>
+              <p><em><strong>All Pizza Lovers</strong></em> </p> -->
+              <div class="row">
+                <div class="container-fluid section" id="about-us">
+                  <div class="col-sm-12 d-flex flex-xs-column">
+                    <div class="col-sm-7 img text-center about-img">
+                        <div class="about-pic">
+                          <img src="images/vid.gif" alt="about-us">
+                        </div>
+                      </div>
+          <!-- </div>
           <div class="col-sm-6 img text-center about-img">
             <div class="border-on">
-              <img src="" alt="about-us">
+              <img src="" alt="about-us"> -->
+              <div class="col-sm-5 align-items-center">
+                <div class="content">
+                  <h3>Welcome to our Pizza Inn</h3>
+                  <p>Pizza Pizzeria offer unique atmosphere for customers and also home delivery services on pizza orders.
+                    To be Healthy, We Need to Always be Happy</p>
+                    <p><em><strong>All Pizza Lovers</strong></em> </p> --
+              </div>
             </div>
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
     <div class="container carousel slide carousel-multi-item" data-ride="carousel">
     <div class="controls-top"> 
       <h2>Types</h2>
@@ -150,8 +184,11 @@
   </div>
   <!-- <script src="js/popper.min.js"></script> -->
   <script src="js/mdb.min.js"></script>
-  <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
