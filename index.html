@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lit Pizza Pizzeria</title>
+  <link rel="stylesheet" href="css/wickedcss.min.css">
   <link rel="stylesheet" href="css/mdb.min.css">
   <link rel="stylesheet" href="css/bootstrap.css"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,10 +39,13 @@
               <div class="container" id="head">
                 <div class="row">
                   <div class="col-md-12 mb-4 white-text text-center text">
-                    <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Pizzah Squisito</strong></h1>
+                    <!-- <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Pizzah Squisito</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="text-uppercase mb-4 gold-text wow fadeInDown" data-wow-delay="0.4s"><strong>Welcome 2 our Pizza Inn</strong></h5>
-                    <a class="btn btn-green wow fadeInDown button" > Place Order <em> <small> "per favore" </small></em></a>
+                    <a class="btn btn-green wow fadeInDown button" > Place Order <em> <small> "per favore" </small></em></a> -->
+                    <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong> Squisito Pizza</strong></h1>
+                    <h5 class="text-uppercase mb-4 gold-text floater"><strong>Pizza Inn! <em>Welcome <small> Per_favore </small></em></strong></h5>
+                    <a class="btn btn-green button floater" >Place Your Order!</a>
                   </div>
                 </div> 
               </div>
@@ -83,7 +87,6 @@
             <img class="card-img-top" src="images/pizza1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Peri Peri</h5>
-              <!-- <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -123,7 +126,6 @@
             <img class="card-img-top" src="images/pizza5.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Chicken Sticks</h5>
-              <!-- <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -133,7 +135,6 @@
             <img class="card-img-top" src="images/pizza6.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Sunchoke </h5>
-              <!-- <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -144,7 +145,6 @@
             <img class="card-img-top" src="images/pizza7.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Baked Potato</h5>
-              <!-- <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -153,7 +153,6 @@
             <img class="card-img-top" src="images/pizza8.jpg" alt="Card image cap">
             <div class="card-body bg-trsnsparent">
               <h5 class="card-title">Avocado</h5>
-              <!-- <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -162,9 +161,6 @@
             <img class="card-img-top" src="images/pizza9.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Raspberry Dessert</h5>
-              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's content.</p>
-              <a class="btn btn-primary">Button</a> -->
             </div>
           </div>
         </div>
@@ -174,31 +170,65 @@
   <div class="container-fluid order">
     <div class="order-overlay">
       <div class="controls-top text-center" id="Order-now"> 
-        <h2>Kindly Make an Order</h2>
+        <h2>Make an Order</h2>
       </div>
       <h2>Order n Recieve Delivery Prompto!</h2>
-      <div class="col-sm-3"></div>
-      <div class="col-sm-6">
-        <form action="">
-          <label for="select">Sizes Available</label>
-          <select class="browser-default custom-select custom-select-md mb-3">
-            <option value="large">Large -- sh. 500</option>
-            <option value="medium">Medium -- sh. 300</option>
-            <option value="small">Small -- sh. 200</option>
-          </select>
-          <button type="submit" class="btn btn-orange">Nice. Almost Done! Next Step...</button>
-        </form>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <form action="">
+              <label for="select">Flavor Choice</label>
+              <select class="browser-default custom-select custom-select-md mb-3">
+                <option value="1">Chicken Tikka</option>
+                <option value="2">PeriPeri<div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <form action="">
+                <label for="select">Flavours Choice</label>
+                <select class="browser-default custom-select custom-select-md mb-3">
+                  <option value="1">PeriPeri</option>
+                  <option value="2">Chicken Alfredo</option>
+                  <option value="3">Buratta</option>
+                  <option value="4">Chicken Tikka</option>
+                  <option value="5"> Chicken Sticks</option>
+                  <option value="6">Sunchoke</option>
+                  <option value="7">Baked Potato </option>
+                  <option value="8">Avocado</option>
+                  <option value="9">Raspberry Dessert</option>
+                </select>
+              <label for="select">Sizes Available</label>
+              <select class="browser-default custom-select custom-select-md mb-3">
+                <option value="large">Large -- sh. 800</option>
+                <option value="medium">Medium -- sh. 500</option>
+                <option value="small">Small -- sh. 300</option>
+              </select>
+              <label for="crust"> <em> Crusts!</em></label>
+              
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="stuffed" name="crust">
+                <label class="custom-control-label" for="stuffed">Stuffed</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="gluton-free" name="crust">
+                <label class="custom-control-label" for="gluton-free">Gluton-free</label>
+              </div> 
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="crispy" name="crust">
+                <label class="custom-control-label" for="crispy">Crispy</label>
+              </div>
+              <label for="Toppings"><em> Toppings </em></label>
+
+              <button type="submit" class="btn btn-blue">Proceed</button>
+            </form>
+          </div>
+        <div class="col-sm-2"></div>
       </div>
       <div class="col-sm-3"></div>
 
     </div>
   </div>
 
-
-  <!-- <script src="js/popper.min.js"></script> -->
   <script src="js/mdb.min.js"></script>
-  <!-- <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/bootstrap.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
