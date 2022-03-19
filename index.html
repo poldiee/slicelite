@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lit Pizza Pizzeria</title>
+  <link rel="icon" href="" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Fredoka' rel='stylesheet'>
   <link rel="stylesheet" href="css/wickedcss.min.css">
   <link rel="stylesheet" href="css/mdb.min.css">
   <link rel="stylesheet" href="css/bootstrap.css"> 
@@ -175,15 +177,7 @@
       </div>
       <h2>Order n Recieve Delivery Prompto!</h2>
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-          <form action="">
-              <label for="select">Flavor Choice</label>
-              <select class="browser-default custom-select custom-select-md mb-3">
-                <option value="1">Chicken Tikka</option>
-                <option value="2">PeriPeri<div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8">
+          <div class="col-sm-9">
             <form action="">
                 <label for="select">Flavours Choice</label>
                 <select class="browser-default custom-select custom-select-md mb-3">
@@ -205,25 +199,46 @@
               </select>
               <label for="crust"> <em> Crusts!</em></label>
               <select class="browser-default custom-select custom-select-md mb-3">
-                <option value="">Crispy -- sh. 100</option>
-                <option value="medium">Stuffed -- sh. 150</option>
-                <option value="small">Gluton-free-- sh. 120</option>
+                <option value="Crispy">Crispy -- sh. 100</option>
+                <option value="Stuffed">Stuffed -- sh. 150</option>
+                <option value="Gluton-free">Gluton-free-- sh. 120</option>
               </select>
               <label for="Toppings"><em> Toppings </em></label>
               <select class="browser-default custom-select custom-select-md mb-3">
-                <option value="">Kebab -- sh. 50</option>
-                <option value="medium">Sausege -- sh. 40</option>
-                <option value="small">Smokey -- sh. 30</option>
+                <option value="Kebab">Kebab -- sh. 50</option>
+                <option value="Sausege">Sausege -- sh. 40</option>
+                <option value="Smokey">Smokey -- sh. 30</option>
               </select>
-              <button type="submit" class="btn btn-blue">Proceed</button>
+              <button type="submit" class="btn btn-blue"><em> continul </em></button>
             </form>
           </div>
-        <div class="col-sm-2"></div>
-      </div>
-      <div class="col-sm-3"></div>
 
+      <div class="col-sm-5">
+        <div class="choices">
+          <h2> Order Confirmation:</h2>
+          <div id="your-orders">
+            <p id="pizzaname"></p>
+            <p id="pizzasize"></p>
+            <p id="pizzacrust"></p>
+            <p id="pizzatopping"></p> 
+            
+            <p id="pizzatotal"></p> 
+          </div>
+          <button class="btn btn-orange checkout">checkout</button>
+          <div class="delivery">
+            <form action="">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control mb-3" placeholder="name">
+                <input type="number" id="phone" class="form-control mb-3" placeholder="phone_no">
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
+</div>
 
   <script src="js/mdb.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
