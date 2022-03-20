@@ -67,13 +67,13 @@ $(document).ready(function(){
       console.log("nothing selected");
       $("button.proceed").show();
       $("#information").show();
-      $("div.choices").hide();
+      $("div.choise").hide();
       alert("Please select pizza size and crust"); 
     }
     else{
       $("button.proceed").hide();
       $("#information").hide();
-      $("div.choices").slideDown(1000);
+      $("div.choise").slideDown(1000);
     }
 
     total = price + crust_price + topping_value;
