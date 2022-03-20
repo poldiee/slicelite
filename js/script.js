@@ -66,13 +66,13 @@ $(document).ready(function(){
     if((psize == "0") && (pcrust == "0")){
       console.log("nothing selected");
       $("button.proceed").show();
-      $("#feedback").show();
+      $("#information").show();
       $("div.choices").hide();
       alert("Please select pizza size and crust"); 
     }
     else{
       $("button.proceed").hide();
-      $("#feedback").hide();
+      $("#information").hide();
       $("div.choices").slideDown(1000);
     }
 
@@ -160,7 +160,7 @@ $(document).ready(function(){
     // home delivery button
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
-      $(".choices h2").hide();
+      $(".choise h2").hide();
       $(".delivery").slideDown(1000);
       $("#addedprice").hide();
       $("button.deliver").hide();
