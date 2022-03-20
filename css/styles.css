@@ -190,7 +190,24 @@ nav .navbar{
 #contact h2{
   text-align: center;
 }
-
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: aliceblue;
+}
+#information{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
+}
 @media only screen and (max-width: 485px){
   .flex-xs-column {
     flex-direction: column;

@@ -205,20 +205,34 @@
                 <option value="Stuffed">Stuffed -- sh. 150</option>
                 <option value="Gluton-free">Gluton-free-- sh. 120</option>
               </select>
-              <label for="toppings"><em> Toppings </em></label>
-              <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+              <!-- <label for="toppings"><em> Toppings </em></label>
+              <select class="browser-default custom-select custom-select-md mb-3" name="toppings">
                 <option selected value="0">please select preferred topping?</option>
                 <option value="Kebab">Kebab -- sh. 50</option>
                 <option value="Sausege">Sausege -- sh. 40</option>
                 <option value="Smokey">Smokey -- sh. 30</option>
-              </select>
-              <button type="submit" class="btn btn-blue"><em> continul </em></button>
+              </select> -->
+
+              <label for="Toppings">Toppings at sh. 40 each</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Kebab" value="Kebab" name="toppings">
+                  <label class="custom-control-label" for="Kebab">Kebab</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Samosa" value="Samosa" name="toppings">
+                  <label class="custom-control-label" for="Samosa">Samosa</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausege" value="Sausege" name="toppings">
+                  <label class="custom-control-label" for="Sausege">Sausege</label>
+                </div>
+              <button type="submit" class="btn btn-blue"><em> please continule </em></button>
             
             </form>
           </div>
 
       <div class="col-sm-7">
-        <div id="Feedback Info">
+        <div id="feedback">
           <p>Thanks for your order. Processing duration=1hour.</p>
           <p>requirement=total-amount.</p>
           <p id="regards">Thankyou, Esteemed Customer</p>
@@ -261,7 +275,7 @@
                 <input type="text" id="name" class="form-control mb-3" placeholder="name">
                 <input type="number" id="phone" class="form-control mb-3" placeholder="phone_no">
                 <input type="text" id="location" class="form-control mb-3" placeholder="location for delivery">
-                <button class="btn btn-blue" id="final-order">Place Order</button>
+                <button class="btn btn-blue" id="final-order">Place Your Order</button>
               </div>
             </form>
           </div>
