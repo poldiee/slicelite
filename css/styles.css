@@ -3,27 +3,21 @@ html,body,header,
   overflow-x: hidden;
   height: 100%;
   scroll-behavior: smooth;
+  font-family: fantasy;
 
 }
 body{
   margin: 0;
   padding: 0;
 }
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Eagle+Lake|El+Messiri|Quattrocento&display=swap');
-@media (max-width: 740px) {
-  body,
-  header,
-  .landing{ 
-    height: 100vh;
-  }
-}
+
 h1 {
   letter-spacing: 8px;
-  color: rgb(255, 188, 2);
+  color: rgb(221, 160, 68);
   font-weight: bolder;
   font-family: 'Cormorant', serif;
   font-size: 60px;
-  text-shadow: 2px 2px 5px rgb(8, 156, 5);
+  text-shadow: 2px 2px 5px rgb(9, 51, 105);
 }
 
 h5 {
@@ -36,10 +30,10 @@ h5 {
   position: absolute;
   /* overflow-x: hidden; */
 }
-.hr-light {
+/* .hr-light {
   border-top: 3px solid #fff;
   width: 200px;
-}
+} */
 #head{
   padding-top: 10%;
 }
@@ -49,13 +43,14 @@ nav .navbar{
   padding-right: 0px;
 }
 .navbar-brand{
-  margin-right: 20%;
+  margin-right: 35%;
   font-weight:800;
 }
 .nav-item a{
   /* padding-right: 30px; */
   padding-left: 30px;
   /* padding: 10px; */
+  /* padding-right: 50px; */
   font-size: 20px;
   font-weight: 700;
 }
@@ -83,11 +78,11 @@ nav .navbar{
 }
 .card-title{
   text-align: center;
-  color: green;
+  color: rgb(65, 25, 102);
   font-weight: 800;
 }
 .controls-top h2{
-  color: rgb(5, 172, 5);
+  color: rgba(165, 114, 73, 0.582);
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: bolder;
@@ -150,6 +145,9 @@ nav .navbar{
 .order h2{
   text-align: center;
 }
+#variety{
+  padding-top: 30px;
+}
 .order{
   background-attachment: fixed;
   background-image: url("../images/slide.jpg");
@@ -180,10 +178,7 @@ nav .navbar{
   padding-left: 10%;
   padding-right: 10%;
 }
-td,th{
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-}
+
 .choices h2{
   color:rgba(55, 0, 255, 0.952);
   text-align: left;
@@ -191,6 +186,9 @@ td,th{
 #your-orders{
   color: rgba(255, 255, 255, 0.932);
   font-size: 25px;
+}
+#contact h2{
+  text-align: center;
 }
 
 @media only screen and (max-width: 485px){

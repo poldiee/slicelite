@@ -199,50 +199,60 @@
                 <option value="small">Small -- sh. 300</option>
               </select>
               <label for="crust"> <em> Crusts!</em></label>
-              <select class="browser-default custom-select custom-select-md mb-3">
+              <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                <option selected value="0">please select preferred crust!</option>
                 <option value="Crispy">Crispy -- sh. 100</option>
                 <option value="Stuffed">Stuffed -- sh. 150</option>
                 <option value="Gluton-free">Gluton-free-- sh. 120</option>
               </select>
-              <label for="Toppings"><em> Toppings </em></label>
-              <select class="browser-default custom-select custom-select-md mb-3">
+              <label for="toppings"><em> Toppings </em></label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+                <option selected value="0">please select preferred topping?</option>
                 <option value="Kebab">Kebab -- sh. 50</option>
                 <option value="Sausege">Sausege -- sh. 40</option>
                 <option value="Smokey">Smokey -- sh. 30</option>
               </select>
               <button type="submit" class="btn btn-blue"><em> continul </em></button>
+            
             </form>
           </div>
 
-      <div class="col-sm-5">
+      <div class="col-sm-7">
+        <div id="Feedback Info">
+          <p>Thanks for your order. Processing duration=1hour.</p>
+          <p>requirement=total-amount.</p>
+          <p id="regards">Thankyou, Esteemed Customer</p>
+        </div>
         <div class="choices">
           <h2> Order Confirmation:</h2>
           <div id="your-orders">
-            <p id="pizzaname"></p>
-            <p id="pizzasize"></p>
-            <p id="pizzacrust"></p>
-            <p id="pizzatopping"></p> 
-            <table class="table table-sm">
+            <table class="table table-sm pizzatable">
               <thead>
                 <tr>
                   <th scope="col">name</th>
                   <th scope="col">size</th>
                   <th scope="col">crust</th>
                   <th scope="col">toping</th>
+                  <th scope="col">total</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody id="ordersmade">
                 <tr>
                   <td id="pizzaname"></td>
                   <td id="pizzasize"></td>
                   <td id="pizzacrust"></td>
                   <td id="pizzatopping"></td>
+                  <td id="total"></td>
                 </tr>                  
               </tbody>
             </table>
-            <p id="pizzatotal"></p> 
+            <p id="pizzatotal"></p>
+            <p id="totalbill"></p> 
+            <p id="addedprice">Delivery will cost sh. 150</p>
+            <p id="finallmessage"></p>
           </div>
           <button class="btn btn-blue addPizza">Add Pizza?</button>
+          <button class="btn btn-blue" id="checkout">Checkout</button>
           <button class="btn btn-blue deliver">Delivery?</button>
           </div>
           <div class="delivery">
@@ -250,38 +260,30 @@
               <div class="form-group">
                 <input type="text" id="name" class="form-control mb-3" placeholder="name">
                 <input type="number" id="phone" class="form-control mb-3" placeholder="phone_no">
-                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                <input type="text" id="location" class="form-control mb-3" placeholder="location for delivery">
                 <button class="btn btn-blue" id="final-order">Place Order</button>
               </div>
             </form>
           </div>
         </div>
-      <h2 id="delivery-message"></h2>
-    </div>
-    <div class="row">
-
-
     </div>
   </div>
 </div>
-<div class="container" id="contact">
+<div class="container-fluid bg-default" id="contact">
   <div class="controls-top "> 
     <h2>PIZZERIA CONTACT</h2>
   </div>
-<div class="row">
-  <div class="col-md-3">
+  <div class="row" id="contactdetails">
+    <div class="col-md-1">
 
+    </div>
+    <div class="col-md-2 text-justify">
+      <h2>Location Details</h2>
+      <p>Squisito Pizza</p>
+      <p>Nairobi</p>
+    </div>
+  
   </div>
-  <div class="col-md-3">
-
-  </div>
-  <div class="col-md-3">
-
-  </div>
-  <div class="col-md-3">
-
-  </div>
-</div>
 
 </div>
 
