@@ -161,9 +161,36 @@ nav .navbar{
   padding-bottom: 4%;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 20px;
+  padding-left: 2%;
+}
+.choices{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.choices h2{
+  color:rgba(55, 0, 255, 0.952);
+  text-align: left;
+}
+#your-orders{
+  color: rgba(255, 255, 255, 0.932);
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 485px){
@@ -185,7 +212,7 @@ nav .navbar{
   width: 94%;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.753);
   margin-left: 2%;
   margin-right: 2%;
   padding-right: 16px;

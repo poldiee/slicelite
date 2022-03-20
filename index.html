@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lit Pizza Pizzeria</title>
-  <link rel="icon" href="" type="image/x-icon">
+  <link rel="icon" href="pizza.ico" type="image/x-icon">
   <link href='https://fonts.googleapis.com/css?family=Fredoka' rel='stylesheet'>
   <link rel="stylesheet" href="css/wickedcss.min.css">
   <link rel="stylesheet" href="css/mdb.min.css">
@@ -25,14 +25,14 @@
             </button>
             <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
               <ul class="navbar-nav">
-                <li class="nav-item">
+                <!-- <li class="nav-item"> -->
                   <a class="nav-link" href="#about-us">About</a>
-                </li>
+                <!-- </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="#variety">Menu & Varieties</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">contacts</a>
+                  <a class="nav-link" href="#contact">inn's contact</a>
                 </li>    
               </ul>
             </div>  
@@ -49,6 +49,7 @@
               </div>
             </div>
             <div class="arrow bounce"></div>
+            <div class="arrow bounce"> <a href="#variety"> <img src="images/arrow.ico" alt=" arrow"width="40px"></a></div>
         </div>
       </div>
       </header>
@@ -221,23 +222,67 @@
             <p id="pizzasize"></p>
             <p id="pizzacrust"></p>
             <p id="pizzatopping"></p> 
-            
+            <table class="table table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">name</th>
+                  <th scope="col">size</th>
+                  <th scope="col">crust</th>
+                  <th scope="col">toping</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="pizzaname"></td>
+                  <td id="pizzasize"></td>
+                  <td id="pizzacrust"></td>
+                  <td id="pizzatopping"></td>
+                </tr>                  
+              </tbody>
+            </table>
             <p id="pizzatotal"></p> 
           </div>
-          <button class="btn btn-orange checkout">checkout</button>
+          <button class="btn btn-blue addPizza">Add Pizza?</button>
+          <button class="btn btn-blue deliver">Delivery?</button>
+          </div>
           <div class="delivery">
             <form action="">
               <div class="form-group">
                 <input type="text" id="name" class="form-control mb-3" placeholder="name">
                 <input type="number" id="phone" class="form-control mb-3" placeholder="phone_no">
+                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                <button class="btn btn-blue" id="final-order">Place Order</button>
               </div>
             </form>
           </div>
         </div>
+      <h2 id="delivery-message"></h2>
+    </div>
+    <div class="row">
 
-      </div>
+
     </div>
   </div>
+</div>
+<div class="container" id="contact">
+  <div class="controls-top "> 
+    <h2>PIZZERIA CONTACT</h2>
+  </div>
+<div class="row">
+  <div class="col-md-3">
+
+  </div>
+  <div class="col-md-3">
+
+  </div>
+  <div class="col-md-3">
+
+  </div>
+  <div class="col-md-3">
+
+  </div>
+</div>
+
 </div>
 
   <script src="js/mdb.min.js"></script>
