@@ -13,7 +13,7 @@ Web application for slice-lite. a pizza selling attempt. It shows details about 
 
 ## Live Page 
 
-
+https://poldiee.github.io/slicelite/
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
