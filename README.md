@@ -47,7 +47,9 @@ Web application for slice-lite. a pizza selling attempt. It shows details about 
 | place order| | |
 
 ## Known Bugs
-submit button not responsive when details are entered
+submit button not responsive enough when details are entered
+the toppings prices similarrity
+bugs checking and fixing...
 
 ## Contact Information 
 
