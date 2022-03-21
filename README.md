@@ -1,7 +1,7 @@
 # slice-lite
 ## Author
 
-
+[David-Njagi](https://github.com/poldiee)
 
 ### Version
 
@@ -47,13 +47,13 @@ Web application for slice-lite. a pizza selling attempt. It shows details about 
 | place order| | |
 
 ## Known Bugs
-
+submit button not responsive when details are entered
 
 ## Contact Information 
 
 contributions // questions 
-* email
+* email [nessidave@gmail.com]
 
 ## License
-* 
+* Copyright (c) 2022  **poldiee**
 
